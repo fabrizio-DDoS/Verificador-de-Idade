@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Faces com Idades!</h1>
+
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento</p>
+            <input type="number" id="txtano">
+            <p>Sexo: 
+                <input type="radio" name ='sex' id="homem" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name ='sex' id="mulher">
+                <label for="femi">Feminino</label>
+            </p>
+            <input type="button" id="verificar" value="verificar" onclick="verificar()">
+        </div>
+        <div id="res">
+            <p id="txtt">Preencha os dados acima para ver o resultado</p>
+            <img id="foto">
+        </div>
+
+    </section>
+    <footer>
+        <p>@fabriziommoura</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
